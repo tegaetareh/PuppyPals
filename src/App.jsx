@@ -1,7 +1,8 @@
 import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
+import './puppypals.css'
 import {puppyList} from './data.js'
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
        }
      {featPupId && 
         (
-          <div>
+          <div className="renderDetails">
             <h2>{featuredPup.name}</h2>
             <ul>
               <li>Age: {featuredPup.age}</li>
