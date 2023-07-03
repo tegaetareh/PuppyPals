@@ -4,7 +4,7 @@ import { useState } from 'react'
 // import './App.css'
 import './puppypals.css'
 import {puppyList} from './data.js'
-
+// npm run dev - this is the command to run the server
 function App() {
   // const [count, setCount] = useState(0)
   //console.log(puppyList);
